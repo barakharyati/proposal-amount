@@ -1,10 +1,10 @@
-# Representing Measures
-
+# Representing Measures  
+ 
 **Stage**: 1
 
 **Champion**: Ben Allen [@ben-allen](https://github.com/ben-allen)
-
-**Author**: Ben Allen [@ben-allen](https://github.com/ben-allen)
+ 
+**Author**: Ben Allen [@ben-allen](https://github.com/ben-allen) 
 
 ## Goals and needs
 
@@ -13,7 +13,7 @@ In the real world, it is rare to have a number by itself. Numbers are more often
 Intl formatters have long been able to format amounts of things, but the quantity associated with the number is not carried along with the number into Intl APIs, which causes real-world bugs.
 
 We propose creating a new object for representing amounts,
-and for producing formatted string representations thereof.
+and for producing formatted string representations thereof. 
 
 Common user needs that can be addressed by a robust API for measurements include, but are not limited to:
 
